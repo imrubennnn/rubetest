@@ -1,4 +1,4 @@
-const Discord = require("discord.js") const client = new Discord.client();
+const Discord = require("discord.js") ;const client = new Discord.client();
 const config = require("./config.json");
 client.on("ready", () => {
     console.log(Bot foi iniciado, com $ {
